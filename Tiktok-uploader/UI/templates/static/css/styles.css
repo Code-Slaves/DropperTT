@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Black.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Light.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Black.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+         url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+    /* Дополнительные источники шрифтов для обеспечения кросс-браузерной совместимости */
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: Raboto, sans-serif;
+}
+
+.border_solid {
+	border: 2px solid #EBEBEB;
+	border-radius: 2px;
+}
+
+
+.nav-shadow {
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logo-name {
+	color: #CBCBCB;
+	font-weight: 600;
+	transition: all 0.3s ease;
+}
+
+.send-btn {
+	background-color: #3690E3;
+	transition: all 0.3s ease;
+}
+
+.send-btn:hover {
+	background-color: #95B4D0;
+}
+
+.logo-name:hover {
+	color: #E7E7E9;
+}
+
+
+.mix-icon:hover {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(231, 231, 233, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.mix-icon {
+	transition: all 0.3s ease;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(203, 203, 203, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.bg-body-custom {
+	background-color: #464A59;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TT-Uploader</title>
+	<link rel="icon" href="static/img/tiktok.ico" sizes="32x32" type="image/x-icon">
+	<link rel="stylesheet" href = "static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/styles.css">
+	<link rel="stylesheet" href="static/css/castom_upload.css">
+	<script src="static/js/bootstrap.bundle.min.js"></script>
+	<script src="static/js/dinamicH.js"></script>
+</head>
+<body>
+	<header class="dinamic-check mb-2">
+		<nav class="navbar bg-body-custom nav-shadow">
+		  <div class="container">
+		    <button class="navbar-toggler navbar-dark" style="border: none!important;box-shadow: none!important;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLeft" aria-controls="offcanvasNavbarLeft" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon mix-icon"></span>
+		    </button>
+		    <a class="navbar-brand logo-name" href="/">
+<svg width="26" height="38" viewBox="0 0 32 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.00006 34.7131V32.541C9.00006 31.1603 10.1193 30.041 11.5001 30.041C12.8808 30.041 14.0001 31.1603 14.0001 32.541V34.7131C14.8199 34.2107 15.477 33.4687 15.8738 32.5845C16.0196 32.2597 16.0925 32.0973 16.1388 32.0279C16.3225 31.7525 16.4785 31.6515 16.805 31.5966C16.8873 31.5828 17.0082 31.5828 17.2501 31.5828C18.8379 31.5828 20.1251 30.2956 20.1251 28.7078C20.1251 27.12 18.8379 25.8328 17.2501 25.8328L11.5001 25.8328L5.75006 25.8328C4.16224 25.8328 2.87506 27.12 2.87506 28.7078C2.87506 30.2956 4.16224 31.5828 5.75006 31.5828C5.99192 31.5828 6.11285 31.5828 6.19509 31.5966C6.52159 31.6515 6.67763 31.7525 6.86135 32.0279C6.90763 32.0973 6.98051 32.2597 7.12629 32.5845C7.52313 33.4687 8.18022 34.2107 9.00006 34.7131Z" fill="#00F2EA"/>
+<path d="M11.5 42.1248L12.2071 42.8319L11.5 43.539L10.7929 42.8319L11.5 42.1248ZM10.5 32.5415C10.5 31.9892 10.9478 31.5415 11.5 31.5415C12.0523 31.5415 12.5 31.9892 12.5 32.5415L10.5 32.5415ZM16.0405 38.9986L12.2071 42.8319L10.7929 41.4177L14.6263 37.5844L16.0405 38.9986ZM10.7929 42.8319L6.9596 38.9986L8.37381 37.5844L12.2071 41.4177L10.7929 42.8319ZM10.5 42.1248L10.5 32.5415L12.5 32.5415L12.5 42.1248L10.5 42.1248Z" fill="#00F2EA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.0001 36.7131V34.541C11.0001 33.1603 12.1193 32.041 13.5001 32.041C14.8808 32.041 16.0001 33.1603 16.0001 34.541V36.7131C16.8199 36.2107 17.477 35.4687 17.8738 34.5845C18.0196 34.2597 18.0925 34.0973 18.1388 34.0279C18.3225 33.7525 18.4785 33.6515 18.805 33.5966C18.8873 33.5828 19.0082 33.5828 19.2501 33.5828C20.8379 33.5828 22.1251 32.2956 22.1251 30.7078C22.1251 29.12 20.8379 27.8328 19.2501 27.8328L13.5001 27.8328L7.75006 27.8328C6.16224 27.8328 4.87506 29.12 4.87506 30.7078C4.87506 32.2956 6.16224 33.5828 7.75006 33.5828C7.99192 33.5828 8.11285 33.5828 8.19509 33.5966C8.52159 33.6515 8.67763 33.7525 8.86135 34.0279C8.90763 34.0973 8.98051 34.2597 9.12629 34.5845C9.52313 35.4687 10.1802 36.2107 11.0001 36.7131Z" fill="#FF004F"/>
+<path d="M13.5 44.1248L14.2071 44.8319L13.5 45.539L12.7929 44.8319L13.5 44.1248ZM12.5 34.5415C12.5 33.9892 12.9478 33.5415 13.5 33.5415C14.0523 33.5415 14.5 33.9892 14.5 34.5415L12.5 34.5415ZM18.0405 40.9986L14.2071 44.8319L12.7929 43.4177L16.6263 39.5844L18.0405 40.9986ZM12.7929 44.8319L8.9596 40.9986L10.3738 39.5844L14.2071 43.4177L12.7929 44.8319ZM12.5 44.1248L12.5 34.5415L14.5 34.5415L14.5 44.1248L12.5 44.1248Z" fill="#FF004F"/>
+<path d="M22.9427 11.5268C25.0045 12.9999 27.5303 13.8666 30.2583 13.8666V8.61983C29.742 8.61994 29.2271 8.56613 28.722 8.45917V12.5891C25.9942 12.5891 23.4687 11.7224 21.4064 10.2494V20.9566C21.4064 26.3129 17.062 30.6547 11.7033 30.6547C9.70389 30.6547 7.84548 30.0505 6.3017 29.0143C8.06367 30.815 10.5209 31.932 13.2393 31.932C18.5984 31.932 22.9429 27.5902 22.9429 22.2337V11.5268H22.9427ZM24.8379 6.23342C23.7842 5.08284 23.0924 3.59594 22.9427 1.9521V1.27725H21.4868C21.8533 3.36657 23.1032 5.15155 24.8379 6.23342ZM9.69107 24.9041C9.10235 24.1326 8.78422 23.1888 8.78564 22.2184C8.78564 19.7686 10.7727 17.7823 13.2242 17.7823C13.6811 17.7822 14.1352 17.8522 14.5706 17.9902V12.6262C14.0618 12.5565 13.5483 12.5269 13.035 12.5377V16.7129C12.5992 16.5748 12.1449 16.5046 11.6879 16.5051C9.23638 16.5051 7.24942 18.4912 7.24942 20.9413C7.24942 22.6736 8.24263 24.1735 9.69107 24.9041Z" fill="#FF004F"/>
+<path d="M21.4063 10.2493C23.4687 11.7223 25.9942 12.589 28.7219 12.589V8.45906C27.1993 8.1349 25.8514 7.33961 24.8379 6.23342C23.1031 5.15144 21.8532 3.36646 21.4868 1.27725H17.6625V22.2335C17.6539 24.6766 15.6702 26.6548 13.224 26.6548C11.7824 26.6548 10.5018 25.968 9.69071 24.9041C8.24239 24.1735 7.24918 22.6735 7.24918 20.9414C7.24918 18.4915 9.23614 16.5052 11.6876 16.5052C12.1573 16.5052 12.6101 16.5783 13.0347 16.713V12.5379C7.77017 12.6466 3.53619 16.946 3.53619 22.2336C3.53619 24.8732 4.59055 27.2661 6.30178 29.0145C7.84556 30.0505 9.70397 30.6548 11.7034 30.6548C17.0622 30.6548 21.4064 26.3128 21.4064 20.9566V10.2493H21.4063Z" fill="white"/>
+<path d="M28.722 8.45907V7.34236C27.3489 7.34444 26.0028 6.96011 24.8379 6.23332C25.8692 7.36175 27.2271 8.13984 28.722 8.45907ZM21.4868 1.27726C21.4518 1.07759 21.425 0.876603 21.4064 0.674849V0H16.1261V20.9565C16.1177 23.3992 14.1341 25.3774 11.6877 25.3774C10.9694 25.3774 10.2913 25.207 9.69074 24.9042C10.5018 25.968 11.7825 26.6547 13.224 26.6547C15.67 26.6547 17.654 24.6767 17.6626 22.2336V1.27726H21.4868ZM13.035 12.5379V11.349C12.5938 11.2888 12.1489 11.2585 11.7036 11.2587C6.34433 11.2586 2 15.6007 2 20.9565C2 24.3143 3.7074 27.2735 6.30192 29.0142C4.59069 27.266 3.53633 24.873 3.53633 22.2335C3.53633 16.946 7.77019 12.6466 13.035 12.5379Z" fill="#00F2EA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 35.7131V33.541C10.0001 32.1603 11.1193 31.041 12.5001 31.041C13.8808 31.041 15.0001 32.1603 15.0001 33.541V35.7131C15.8199 35.2107 16.477 34.4687 16.8738 33.5845L16.8738 33.5844C17.0196 33.2597 17.0925 33.0973 17.1388 33.0279C17.3225 32.7525 17.4785 32.6515 17.805 32.5966C17.8873 32.5828 18.0082 32.5828 18.2501 32.5828C19.8379 32.5828 21.1251 31.2956 21.1251 29.7078C21.1251 28.12 19.8379 26.8328 18.2501 26.8328L12.5001 26.8328L6.75006 26.8328C5.16224 26.8328 3.87506 28.12 3.87506 29.7078C3.87506 31.2956 5.16224 32.5828 6.75006 32.5828C6.99192 32.5828 7.11285 32.5828 7.19509 32.5966C7.52159 32.6515 7.67763 32.7525 7.86135 33.0279C7.90763 33.0973 7.98051 33.2597 8.12629 33.5845C8.52313 34.4687 9.18022 35.2107 10.0001 35.7131Z" fill="white"/>
+<path d="M12.5 43.1248L13.2071 43.8319L12.5 44.539L11.7929 43.8319L12.5 43.1248ZM11.5 33.5415C11.5 32.9892 11.9478 32.5415 12.5 32.5415C13.0523 32.5415 13.5 32.9892 13.5 33.5415L11.5 33.5415ZM17.0405 39.9986L13.2071 43.8319L11.7929 42.4177L15.6263 38.5844L17.0405 39.9986ZM11.7929 43.8319L7.9596 39.9986L9.37381 38.5844L13.2071 42.4177L11.7929 43.8319ZM11.5 43.1248L11.5 33.5415L13.5 33.5415L13.5 43.1248L11.5 43.1248Z" fill="white"/>
+</svg>
+
+
+
+		    	Multi TT-Uploader
+			</a>
+		    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLeft" aria-labelledby="offcanvasNavbarLabelLeft">
+		      <div class="offcanvas-header">
+		        <h5 class="offcanvas-title" id="offcanvasNavbarLabelLeft">Offcanvas</h5>
+		        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		      </div>
+		      <div class="offcanvas-body">
+		        <ul class="navbar-nav justify-content-end flex-grow-1 ms-3">
+		          <li class="nav-item">
+		            <a class="nav-link active" aria-current="page" href="#">Home</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Link</a>
+		          </li>
+		          <li class="nav-item dropdown">
+		            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		              Dropdown
+		            </a>
+		            <ul class="dropdown-menu">
+		              <li><a class="dropdown-item" href="#">Action</a></li>
+		              <li><a class="dropdown-item" href="#">Another action</a></li>
+		              <li>
+		                <hr class="dropdown-divider">
+		              </li>
+		              <li><a class="dropdown-item" href="#">Something else here</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+		        <form class="d-flex mt-3" role="search">
+		          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+		          <button class="btn btn-outline-success" type="submit">Search</button>
+		        </form>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-3 border_solid" id="dinamic-height" style="background-color: #fff;">
+				
+			</div>
+			<div class="col-9" style="background-color: #FBFBFB;">
+				<form action="">
+					<div class="w-100 d-flex justify-content-end">
+						<button type="submit" class="btn text-light send-btn py-1 px-2">Опубликовать</button>
+					</div>
+
+					<h3 class="mb-2" style="font-size:20px;font-weight: 600;">Загрузить видео</h3>
+
+					<div class="file-container">
+					  <div class="file-wrapper">
+					    <input class="file-input" id="js-file-input" type="file"/>
+					    <div class="file-content">
+					      <div class="file-infos w-100">
+					        <p class="file-icon d-flex justify-content-center">
+					          <svg width="120" height="120" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					            <rect width="74" height="74" fill="url(#pattern0)"/>
+					            <defs>
+					            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+					            <use xlink:href="#image0_3_19" transform="scale(0.00390625)"/>
+					            </pattern>
+					            <image id="image0_3_19" width="256" height="256" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAESZJREFUeNrsndF12zgWhmkfFaBUsEwFUSowU0Hs53mIXcHGFTipwNkK4nmYZ0kVhKogSgXhVBB1kAXiq11GIwkgCYAA8X3n8Cg5okUJwP3x4wIEL4pMefxreate3qmjKiAldupYqePP+z9uaopjGBcZBn6pXpbqWFD9yfNJicA9xYAAdAn+r+qYU/WT4UmJwB3F0I/LzH7vkuCfHLdK2D9TDDgAmzE/DQUnAJk6gHdUN04A8hWAiupGBCDDIYBqFHrc/4PqZjgACMBRVIO5oDmMWkc/TUGte3hEgCFAZ1RD2FHVydfhnYgAwwEEABABRAABAEQAEUAAABFABBAAQAQQAQQAEAFEAAEARAARQAAAEUAEEABABBABBAAQAUQAAQBEABFAAAARyF0EEABABDIWAQQAEIGMRQABAEQgYxFAAAARyFgEEABABDIWAQQAEIGMRQABAEQgYxFAAAARyFgEEABABDIWAQQAEIGMRQABAEQgYxFAAAARyFgEEACAjEUAAQDIWAQQAICMRQABAMhYBCYvAPrBoOqoaNaACPyT2dSCXb0s1KED/pX8u6Q5Q18RUG3qV3B3EIEipacSzxIO9lKCm2AHRGDKAiDBvpDjSl7nNE9ABCYmAAQ7IAKZCIAqoEXLuhPsgAhMVQBawb4fr1c0KUAEJigABDsgAmmIwMxBsFcHwb6giQAikIYIzCYc7LU6tur4Jq9fabaACFgKQMrBrgp4e+T30GIBETgnALKS7lEd10Wc2fidBPpGXptjwQ6ACHQUAEncfYko8A+DXffsDc0NEAHHAhBB8BPskKsI7NTf3Y/tAJYBg79pjddrCfYdzQcyFYH36vy1+rt6FAFQF9dftCTYAUYTgXcSH6M4gHeOPmsrAU+wAyLQTQR00v1uLAGoegZ7e9qtpsoBeovAaIn3GcEOENVwIDoB+I/6EU9U5XBktuWxSOveCF3392MP51TZ/aQFuedSxu3neEUxOWnAZfE81Vol9tVv5XvDRAXAtJKOm3vc8FCku9fBQmaLfMLQciQB+GY4p6KY3ARR4t+/9Pz5f9JExhEAo/LK2BXAG5Jn4r6OwMwsC31B5Qxmm7gLaAJc46Z4vm07u23hVCf7VTrjoKsCLyW7a6pcEoHD+Vg83/OQpHiFmAmS+z9eZ9rZ6M7hvTq+KDH4oY6lOt5L8tjrEKAoSAQWgRr3myK9ZNeTfO9g5aQOLQJ3Rb6JQe2A9OpAPWX8XYmAPh7Vce36QhdiPz4Uz1nqcxVzkbjF+jnl3wdpt7+OrIrnO2frofth7BcC1SYB0IlANt8AiIJrOXRcNvvcgQjCro8ANBbnlgWJQIDY0HF5K4cWhLYYGOP1sjU+NSkHeQCA+Kkkd/BVkomfzy3iaj8e3KQWV5QtQFLMxRl8FjF4f04ANjgAgNHYBhADPZPwua8DmPuekwTIFZn6fFE8T38+Ff7WjNzKrN8vZh0VSLuAhuoC8CICOwl+fdzJEnyd7X/r2IE/qM9+0rm/y9bFm4JEIEBMgqBXYH444g5cdMIPhw5g7wKqM39EIhBgfHewv0GvEndQ9fjIX/sQHgrAxvBhOACASNyBdNif5IlebTEoLT5ifsoBnP0jnQjkoR0A0bmDlRz73af+XTzfXHQSLRyXHQUAFwAQvyDoDvpvG+G4PPKHJAIB0uet4f1fLv7yyBusCARImFZO4Bx1XwHAAQDETWVxzvqUAJg2CZ2LwgBAmvZ/kAPABQCk7QD+t2/APwTActOPijIGiHL8XxbmdQDr/T8uz9mDM7BJKECc2OwbWJsEgEQgQJqYZul2bZd/SgBMicCSRCBAkg5g1f5PXweACwCIb/xvY/83RgEgEQgwSftv7QB+SxScgEQgQFr2f3u4bfg5ASARCJCO/S+LDtN/NgJAIhAgHWyG5KsuAkAiECAdTMt/d8dye7NTZ+uTVQ9vozo1ZW9t0/YPfCwpjShodFNXbX2VgQM4GqeXpqSB4f1/0YY6Bf+S4I8KXRdLH0/dDdy2dPCbhuNrHwKwSKSAYviej8RbvE1k4vb/pAOYGf7oW2oCIGqov9crUfgqgu80p+eP3glM2f5vT+3jaRKArU3AqQ+vIwj2RUFSEvIbWpYW7f5kfJ4VAB3YFonARREoESg/9iG1YNeLL+Q57riAOGkm3PufHP/b5ABsXMCrQMGvf+jX4vlppyn29PfEGXXjAZu7/2qfAhAqGPVTTZNdeCRTTTcFz1aMree/SXwa0DSDcdadzywuMHoiUHr/5O2zNLQVcQeO4mJR9Jz+c+kA9gEKAHH1/kYHYBQAywy/bxeAbQb4J8aHf5ge43dpeaFRE4HyI+qOf7YVu/1RHW9oKzAx+z+36HiNw81Zh2BajJkHKJ4TaHpOsjrx/fSh8xXbY67FYjoTYGr2f+NKAEZPBMpGBm8k36CP3algB8iAK4uYceoATJYkyIpAuQZBDziAgfbfZQ5AU1InAEHG/zbTfxtnAiD2uzGcxh6BAGGoLM5x6gBsXAA34gCEYfD0Xx8BMCUCK+oFwLv9nxc9d/8ZKgC1xZfDBQCMb//XPgSATUIB4rf/fhwAiUCAJBxAffjwD1cOwMYF4AAA/I3/dXyVrux/HwEgEQgQ9/i/9ikAxg8nEQjgDdPy38bywb7ehgAMAwD8MWj3n8ECQCIQYLTxv5O7/4Y6gMJCAHAAAOHtv2YVQgA2CABAdPZ/22X6b4gAmPIAc9m/HwDc2H8dT6aYWvf5bB8CgAsACNv797L/vQRA7jLaIQAA0Yz/d12n/4Y4ABsXcEWdATij8tH7DxEAEoEAYcb/Ovid7P4T0gGQCARwg9O7/0IJAC4AIIz939ru/nOMWZ8/0hdUPfzOYE0WBc/BO7RzOpv7WLCBaizowLmP9eGg4qJNHWk95BqXA/6WRGD34F8S/FGh62Jpucw2xt5fsx5LAEgEdtQAioC6cTz+3w19FsdswN9aJQKHjE8cWqhRxUg2cqTnj9sJpOgA6qEX8CkAexfQBAyySq55Ja9z2jYkOmS0ab/rodfpPQSw7NkXAQvru4yxH0QIogl+y9uoYTxirBubvEQ9mgBYfoFXAYJfB/qXBHr7e+KMunE4/t+6GF4PFYAYNgm9TcHqy1TTDU4gup7/JrZpQOnUvE7/ucgBaEybhJb6x/S5T7kDyYzzpaGxNgJc2P+Niwv5dgDB8gAAE8K4hsaVaxkkAJa3IFaeC6umvUBmDsCZi7wMEIBeE4GyEOLJcNqONgUpYDn9t4lJAEZPBCoRuFMvdyJG++Nj8Zx0e6nef0HTggmN/505gJmDz4ghEahF4MnCCQCkPv5vXK6uDeEAgrgAgAnY//1q1iC9vxMBiCQRCDAFbOJkE5UACLXhfZ4WBGDG6+4/PgWAx4YD+HcAtetcmisB+NvwfinjGwA4Pv7XnWRpOG3t+rqhHAAuAGD4+L+OUgAsdyVBAAD6j/+bvg//COEAbFwAiUCAAeN/HxcNKQA4AID+rGMXgG8IAIA3kncA+8ccAUDH2PK1lN6ZAJAIBEjL/rt2ADYugEQgQHdWUxEAHABAN3Y+pv98CQCJQIBEev8xHACJQIBubJIRABKBAHk7ABsXQCIQwDKWfO+k5UMAGsP7JfUKYMXa9wV8CIApEUgOAMCOOkUBMH5pufcZAE6zs8ypJZcD0CAAACP3/pqZ6w/USQvVwzeGsX6WiUBVLnrP98eCPEgs6HZ6H9vDQUON/305ABsXsMg0+JcEf1ToulhK3WTpAHwJAInAIxpAvFE3th2oy4d/jCEARvXKKREoG6LS88ftBLLr/cccAmQ5DACIafzvTQBk9ZLJwmSTCLQsDxiPJrL2krwDsHEBuTmAe+KMurEg6IyETwEgEfi7quuKvcEJRNfz30Q2DbgJebGZx8/WNubh3Ak6Eehzs4NIRWBF3EEODoBEIEBHRxJq+s+7AEjiy3QrY0mdA4zT+/t2ADYu4Io6Bxhn/B9CAEw/iCEAwP9dc3YOYP7415JhAEDA1X8xCQAuAOCZ9eQEQDKaOwQAIE8HYOMCSAQC4/+R1sOEEAASgQCREoMDIBEIkLEA4AIApioAJAIB8nYANi6ARCDAhAWARCBAxgLQGN6fy755AJDhEAAXADBVAbBc5FBRHQDTdACa2vA+jw0HmLAAsEkoQMYCYNoktCQRCJCvA8AFAExVAEgEAuTtADS14X0SgQATFgASgQAZCwCJQAAcAC4AIDsBIBEIkLcD0NSG90kEAkxYABpTHoBqAZiuAJgSgeQAACYsAMY8wONfS/IAAFMUgPs/bmqL03ABABN1ADYugEQgQMYCgAMAmLAAkAgEwAGchkQgwEQFgEQgQBzMRrz21hDkQROBynH8pDkADiCeYQAOAGDCAhA6EVhT3QDpOADXicA/qW6AhASgcHhj0P0fN0+W1wRAAHyjAlI/MrwxnOY6EXhTmB9VDoAAROICnOYBlOhowXmNEwCIQwBMicDK9QW1CKhDi8BdQWIQMudizItLku+L4bTXlluJZYkqw1Kckj6u5DXWjVUbcV/f5HUrrizFcn+vX1Jvu7ORr2+7SSgCkHaw1xLsU8q/XJl+fwod16gCoBuEatS6oZRnTnuVabAvpFwI9ji5NryfxPByFsF32BoEYJFJsC9E7PRrFfHX3R6x8VnNrKj6urY4bYMA2PHNoKYVwR5HsFvexJUDVxbnrBAAO3SjejAFTYqJQEly7oO9JNizsf/JuKJYhgAmok8EHgT7IvKhS30Q7CRZ7eu5LMwrVNep/J7RBSDFRGBiwX6MUgRgR/A77/2Tsf+xOIC9CygNDmCMQJ+3xun7YC8n0Ij1b9Dz2O/Vb9w3WJ20qhGEweP/pEQ1FgEYPRE44WC37dWupRwaGSKsRRC4d6JbW1yl9GMuYvgSMq2yNJz20tWqsYMFNbEH+04c0ka+63Xg67fFIGt3YLly9U7uPMUBdBwCmNBB2gwM9tQW1DTHRE8E80rEwLdwVfter+UOtBitMnQHby0FEwfQI1B/GALzo2pwHyYc7L2mjuQ3V9I4q8C/dyvuYJWDO1Bl/bU4n4/ayo1mCECPwv1iGF9pC/qmdf6hhY852LcS8N6XyopN3YtByOTprvg9mdhMLPi10H43nPZJ/e57BKBfAeve/cHQwJ4KVs/1cQf74UJod/ArfzCFRUWqLG/Vy2fDaW9S+60xCYBNIpBgH1bGCxGCtyO4g7r4fzKxSVAAlsX5BKye/nuR2u+KSQBsLNaY1BLsfxcTWCor0577ZKJ2CWXg/Mev4YIqx1Ui5WXKUek8yA0CMKyQvxdxTMfVRWZLZcUdtPMHIdnnDlYxugMpm6+G05Ka/otVAGzGWQR7GHfQFoPQ7qA9XNhFUB4fCsMNa4XDdSrZCoAUtmmqZcg4dL+gJuntqEYanrXXHoQW6FEXIlm0Sb1e42WKdRujAOje58tAESDY/dZRyIVIx9xBsIVI0h5/GE5LbvovWgFoFbrecPHWslE0BHsU7kAPFya1EMlyWHqTSjIzCQE4aFy3xe93YO2KvPaeS00Q2rmD5Bciqd/z2dQRqWtdpFpfFzRZ8CzgbUFIbiHSVKf/EAAYQxCSWohkOf13rz7vEwIA0E0M2guRxlqmfHYhkuXDP16mnHNCACAmd9AeLoTk6EIkixvUkp3+QwAgdnfQFoMy4OWbliCY7k1JdvoPAYAU3cEYC5HOkez0HwIAKQvCWAuRDnmR+jQ0AgCpi0FZjLMQ6bcNahAAgDgEoZ078DnVmPT0HwIAubiDtiC4dAevp3DnKAIAOQmCq4VIyU//IQCQuxgMWYj0pATgDgEAmJY7aA8XzpH89B8CAHDeHbTFoDw45cVU7kJFAAC6uYN5ag//OMd/BRgA3g70WvcmIioAAAAASUVORK5CYII="/>
+					            </defs>
+					          </svg>
+
+					          <span><span class="has-drag">Перетащите файл сюда</span></span></p>
+					      </div>
+					      <p class="file-name" id="js-file-name">файл не выбран</p>
+					    </div>
+					  </div>
+					</div>
+					<!-- partial -->
+					<script  src="static/js/input_loader.js"></script>
+
+				</form>				
+			</div>
+		</div>
+	</div>
+	<footer class="d-flex flex-wrap justify-content-between align-items-center dinamic-check border-top mt-1">
+	    <div class="col-12 container d-flex align-items-center">
+	      <span class="mb-0 d-flex align-items-center" style="color: #416072;">© 2023 TT-Uploader</span>
+	    </div>
+	</footer>
+</body>
+</html>
